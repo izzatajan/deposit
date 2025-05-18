@@ -1,0 +1,14 @@
+.mybox{
+    max-width: 50rem;
+    margin: 0.5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0.45rem;
+}
+.answers{
+    margin: 0 2rem;
+}
+.click:active{
+    transition: all 0.1s;
+    scale: 0.9;
+}
